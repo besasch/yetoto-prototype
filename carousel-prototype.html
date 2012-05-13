@@ -86,10 +86,10 @@
                         <img src="img/photo.jpg" class="btn" style="width: 70px; height: 70px">
                     </a>
                     <ul class="dropdown-menu" style="position: relative; ">
-                        <li><a href="#"><i class="icon-ban-circle"></i> Hide</a></li>
+                        <li><a href="#createEvent" data-toggle="modal"><i class="icon-plus"></i> Create event</a></li>
+                        <li><a href="#"><i class="icon-ban-circle"></i> Hide calendar</a></li>
                         <li class="divider"></li>
-                        <li><a href="#"><i class="icon-minus"></i> Unsubscribe</a></li>
-                        <li><a href="#"><i class="icon-info-sign"></i> About</a></li>
+                        <li><a href="#"><i class="icon-cog"></i> Your calendar</a></li>
                     </ul>
                 </li>
 
@@ -101,7 +101,7 @@
                         <li><a href="#"><i class="icon-ban-circle"></i> Hide</a></li>
                         <li class="divider"></li>
                         <li><a href="#"><i class="icon-minus"></i> Unsubscribe</a></li>
-                        <li><a href="#"><i class="icon-info-sign"></i> About</a></li>
+                        <li><a href="#"><i class="icon-info-sign"></i> HIMYM @ TV</a></li>
                     </ul>
                 </li>
 
@@ -113,7 +113,7 @@
                         <li><a href="#"><i class="icon-ban-circle"></i> Hide</a></li>
                         <li class="divider"></li>
                         <li><a href="#"><i class="icon-minus"></i> Unsubscribe</a></li>
-                        <li><a href="#"><i class="icon-info-sign"></i> About</a></li>
+                        <li><a href="#"><i class="icon-info-sign"></i> VfB Stuttgart</a></li>
                     </ul>
                 </li>
 
@@ -275,7 +275,35 @@
 
 </div>
 
+<div class="modal fade" id="createEvent">
+    <div class="modal-header">
+        <button class="close" data-dismiss="modal">×</button>
+        <h3>Create Event in <strong>Your Calendar</strong></h3>
+    </div>
+    <div class="modal-body">
+        <div class="tabbable tabs-right">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#tab1" data-toggle="tab">Default view</a></li>
+                <li><a href="#tab2" data-toggle="tab">Live view</a></li>
+                <li><a href="#tab3" data-toggle="tab">After view</a></li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="tab1">
 
+                </div>
+                <div class="tab-pane" id="tab2">
+                    <p>Howdy, I'm in Section 2.</p>
+                </div>
+                <div class="tab-pane" id="tab3">
+                    <p>Howdy, I'm in Section 3.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a href="#" class="btn btn-primary">Save event</a>
+    </div>
+</div>
 
 
 
